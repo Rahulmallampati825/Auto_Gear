@@ -55,14 +55,6 @@
             android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/forgotTV"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="end"
-            android:text="Forgot Password?"
-            android:textSize="14sp" />
-
-        <TextView
             android:id="@+id/link_signup"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
