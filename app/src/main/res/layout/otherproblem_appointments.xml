@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".AppointmentActivity">
+    tools:context=".Otherproblem_appointments">
+
 
     <TextView
         android:id="@+id/dateTV"
@@ -19,4 +19,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="select date" />
+
 </LinearLayout>
+
