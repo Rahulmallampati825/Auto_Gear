@@ -36,7 +36,10 @@ public class GeneralServiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_general_service);
 
-
+        yearET = (EditText) findViewById(R.id.yearET);
+        modelET = (EditText) findViewById(R.id.modelET);
+        milesET = (EditText) findViewById(R.id.milesET);
+        db = FirebaseFirestore.getInstance();
 
         sendBTN = findViewById(R.id.sendBTN);
         sendBTN.setOnClickListener(new View.OnClickListener() {
