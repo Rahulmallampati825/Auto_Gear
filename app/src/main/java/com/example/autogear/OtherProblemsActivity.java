@@ -20,7 +20,7 @@ import java.util.Map;
 
 public class OtherProblemsActivity extends AppCompatActivity {
     Button sendBTN;
-    EditText problemET,othermodelET,otherYearET,otherMilesET;
+    EditText problemsET,othermodelET,otherYearET,otherMilesET;
     FirebaseFirestore db;
 
     @Override
@@ -30,7 +30,8 @@ public class OtherProblemsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_other_problems);
 
         db = FirebaseFirestore.getInstance();
-        problemET = (EditText) findViewById(R.id.problemET);
+
+        problemsET = (EditText) findViewById(R.id.problemET);
         othermodelET = (EditText) findViewById(R.id.othermodelET);
         otherYearET = (EditText) findViewById(R.id.otherYearET);
         otherMilesET = (EditText) findViewById(R.id.otherMilesET);
@@ -42,7 +43,7 @@ public class OtherProblemsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String problem = problemET.getText().toString();
+                String problem = problemsET.getText().toString();
                 String model = othermodelET.getText().toString();
                 String year = otherYearET.getText().toString();
                 String miles = otherMilesET.getText().toString();
