@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "36934103953-uhfgg6feg5rdvvosv3jm2vbcsj8bs091.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autogear",
+            "certificate_hash": "7b17f5163d3779629cdd3ac6a2737ab8efb80731"
+          }
+        },
+        {
           "client_id": "36934103953-v49n4k9vf28eq14875ubmml165tq9ejs.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
