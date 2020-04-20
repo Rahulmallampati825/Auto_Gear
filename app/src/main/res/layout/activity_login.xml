@@ -55,6 +55,15 @@
             android:textSize="14sp" />
 
         <TextView
+            android:id="@+id/forgotlink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Forgot Password?"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp" />
+
+        <TextView
             android:id="@+id/link_signup"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
