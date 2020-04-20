@@ -34,6 +34,8 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+
+
         otherBTN = findViewById(R.id.otherBTN);
         otherBTN.setOnClickListener(new View.OnClickListener() {
             @Override
