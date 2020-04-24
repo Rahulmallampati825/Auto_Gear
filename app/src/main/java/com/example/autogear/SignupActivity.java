@@ -6,15 +6,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.autogear.LoginActivity;
-import com.example.autogear.model.UserDetails;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -94,9 +91,8 @@ public class SignupActivity extends AppCompatActivity {
                                     //getting the user-id which is same as current user
                                     String user_id = mFirebaseAuth.getCurrentUser().getUid();
                                     //connecting the database reference
-                                    databaseReference = FirebaseDatabase.getInstance().getReference().child("users").child(user_id);
                                     UserDetails userData = new UserDetails(name, emailid, password, addr, phone);
-                                    databaseReference.setValue(userData);
+                                    FirebaseDatabase.getInstance().getReference("users").child(user_id).setValue(userData);
                                     Toast.makeText(getApplicationContext(), "Account Created", Toast.LENGTH_SHORT).show();
 
                                     FirebaseAuth auth = FirebaseAuth.getInstance();
