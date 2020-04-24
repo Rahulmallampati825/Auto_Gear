@@ -1,4 +1,4 @@
-package com.example.autogear.model;
+package com.example.autogear;
 
 public class UserDetails {
 
