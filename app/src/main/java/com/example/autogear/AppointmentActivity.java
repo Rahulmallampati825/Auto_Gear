@@ -1,6 +1,7 @@
 package com.example.autogear;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,8 @@ import java.util.Calendar;
 public class AppointmentActivity extends AppCompatActivity implements
         View.OnClickListener {
 
-    Button datePickerBTN;
+    Button datePickerBTN, bookButton;
+    ;
     TextView txtDate, txtTime;
     private int mYear, mMonth, mDay, mHour, mMinute;
 
@@ -26,7 +28,9 @@ public class AppointmentActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_appointment);
         datePickerBTN = findViewById(R.id.datePickerBTN);
         datePickerBTN.setOnClickListener(this);
-        txtDate =findViewById(R.id.dateTV);
+        bookButton = findViewById(R.id.bookButton);
+        bookButton.setOnClickListener(this);
+        txtDate = findViewById(R.id.dateTV);
     }
 
     @Override
@@ -55,5 +59,10 @@ public class AppointmentActivity extends AppCompatActivity implements
                     }, mYear, mMonth, mDay);
             datePickerDialog.show();
         }
+        if (v == bookButton) {
+            Intent intent = new Intent(getApplicationContext(), AppintmentDetailsActivity.class);
+            startActivity(intent);
+        }
     }
+
 }
