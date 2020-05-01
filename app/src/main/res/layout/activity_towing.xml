@@ -9,16 +9,20 @@
     android:orientation="vertical"
     tools:context=".TowingActivity">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter Location"/>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/sendLocationET"
+        <AutoCompleteTextView
+            android:id="@+id/checkLocation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter the location" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:hint="Enter Location"
+            android:completionThreshold="1"
+            android:completionHint="Enter start point"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
 
     <Button
         android:id="@+id/sendLocationBTN"
