@@ -75,7 +75,7 @@ public class GeneralServiceActivity extends AppCompatActivity {
                         });
 
                 finish();
-                startActivity(new Intent(GeneralServiceActivity.this, AppointmentActivity.class));
+                startActivity(new Intent(GeneralServiceActivity.this, ScheduleAppointment.class));
             }
         });
 
