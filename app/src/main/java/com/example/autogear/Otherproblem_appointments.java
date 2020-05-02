@@ -21,7 +21,7 @@ public class Otherproblem_appointments extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_appointment);
+        setContentView(R.layout.activity_schedule_appointment);
         datePickerBTN = findViewById(R.id.datePickerBTN);
         datePickerBTN.setOnClickListener(this);
         txtDate =findViewById(R.id.dateTV);
