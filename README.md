@@ -3,8 +3,7 @@ This app is to provide services like General Service, towing and other problems 
 ![logo](https://github.com/Rahulmallampati825/Auto_Gear/blob/master/App%20logo.jpg)
 
 ## Problem statement: 
-
-
+This is a android app based on vehicle service.Our app addresses three major problems faced by consumersHelps our customer get towing service available anywhere they need using map track down.Customer can address their problem and find multiple service providers then choose which is best for them.Customer can track the progress of their service by calling to customer service.
 
 ## Team Members:
 - Rahul Mallampati
@@ -20,8 +19,8 @@ This app is to provide services like General Service, towing and other problems 
 - Google Maps API
 
 ## Test Credentials
-- Username :
-- password :
+- Username :xxxx@gmail.com
+- password :qwerty
 
 ## Sources
 All members of the team have worked in group together and designed the prototype in android studio and made commits into GitHub. Used websites like StackOverFlow and google as a reference.
