@@ -28,7 +28,7 @@ public class AppointmentActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_appointment);
         datePickerBTN = findViewById(R.id.datePickerBTN);
         datePickerBTN.setOnClickListener(this);
-        bookButton = findViewById(R.id.bookButton);
+        bookButton = findViewById(R.id.button);
         bookButton.setOnClickListener(this);
         txtDate = findViewById(R.id.dateTV);
     }
