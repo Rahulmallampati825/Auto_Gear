@@ -35,8 +35,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        mMap.setMinZoomPreference(6.0f);
-        mMap.setMaxZoomPreference(14.0f);
         myAddress = null;
 
     }
@@ -77,6 +75,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     LatLng latLng = new LatLng(myAddress.getLatitude(), myAddress.getLongitude());
                     mMap.addMarker(new MarkerOptions().position(latLng).title(location));
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                    mMap.setMinZoomPreference(6.0f);
+                    mMap.setMaxZoomPreference(14.0f);
 
                 }
             }
