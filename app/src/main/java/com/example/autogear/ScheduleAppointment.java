@@ -65,7 +65,7 @@ public class ScheduleAppointment extends AppCompatActivity {
     }
 
     public void onconfirm(View view) {
-        Intent in=new Intent(this,LoginActivity.class);
+        Intent in=new Intent(this,AppintmentDetailsActivity.class);
         startActivity(in);
     }
 }

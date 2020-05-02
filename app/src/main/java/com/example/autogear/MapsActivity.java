@@ -26,6 +26,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+        mMap.setMinZoomPreference(6.0f);
+        mMap.setMaxZoomPreference(14.0f);
         myAddress = null;
 
     }
