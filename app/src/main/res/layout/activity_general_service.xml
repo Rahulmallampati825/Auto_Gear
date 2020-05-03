@@ -15,7 +15,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/yearET"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:background="#4CAF50"
             android:backgroundTint="#00BCD4"
             android:hint="Enter the year" />
@@ -26,15 +26,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/modelET"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#00BCD4"
-            android:backgroundTint="#00BCD4"
-            android:hint="Enter the Car model" />
-
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/modelET"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#00BCD4"
+        android:backgroundTint="#00BCD4"
+        android:hint="Enter the Car model" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/milesET"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="53dp"
             android:background="#00BCD4"
             android:backgroundTint="#00BCD4"
             android:hint="Enter No. of Miles" />
@@ -52,8 +52,8 @@
 
     <Button
         android:id="@+id/sendBTN"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="291dp"
+        android:layout_height="84dp"
         android:background="#8BC34A"
         android:text="send" />
 
