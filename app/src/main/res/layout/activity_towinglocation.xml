@@ -16,6 +16,7 @@
             android:id="@+id/problemET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#009688"
             android:hint="Send problem details" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -27,6 +28,7 @@
             android:id="@+id/othermodelET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#009688"
             android:hint="Car model" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -38,6 +40,7 @@
             android:id="@+id/otherYearET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#009688"
             android:hint="Car Year" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -49,6 +52,7 @@
             android:id="@+id/otherMilesET"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#009688"
             android:hint="Enter Miles" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -56,5 +60,6 @@
         android:id="@+id/otherSendBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#E91E63"
         android:text="send" />
 </LinearLayout>

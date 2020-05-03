@@ -14,19 +14,21 @@
     android:layout_height="wrap_content"
     android:text="Enter Location"/>
 
-        <AutoCompleteTextView
-            android:id="@+id/checkLocation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter Location"
-            android:completionThreshold="1"
-            android:completionHint="Enter start point"
-            android:inputType="textPersonName"
-            android:textSize="18sp" />
+    <AutoCompleteTextView
+        android:id="@+id/checkLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:completionHint="Enter start point"
+        android:completionThreshold="1"
+        android:hint="Enter Location"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/sendLocationBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#673AB7"
         android:text="Send Location" />
 </LinearLayout>

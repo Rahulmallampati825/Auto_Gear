@@ -18,6 +18,7 @@
         android:id="@+id/datePickerBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFEB3B"
         android:text="select date" />
 
 </LinearLayout>

@@ -75,7 +75,7 @@ public class OtherProblemsActivity extends AppCompatActivity {
 
 
                 finish();
-                startActivity(new Intent(OtherProblemsActivity.this, ScheduleAppointment.class));
+                startActivity(new Intent(OtherProblemsActivity.this, Schedule_appointment.class));
             }
         });
         }

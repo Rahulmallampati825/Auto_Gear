@@ -13,11 +13,13 @@
         android:id="@+id/signinBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#009688"
         android:text="sign in" />
 
     <Button
         android:id="@+id/signupBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#009688"
         android:text="sign up" />
 </LinearLayout>
